@@ -3,28 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
+    <meta name="description" content="Ресурс для изучающих программирование, с уроками и примерами кода.">
+    <title>Программирование для всех</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать на мой сайт!</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Программирование для всех</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Уроки</a></li>
+                    <li><a href="#">Примеры кода</a></li>
+                    <li><a href="#">Ресурсы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    
     <main>
-        <section>
-            <h2>О нас</h2>
-            <p>Это описание сайта или компании.</p>
+        <section class="intro">
+            <div class="container">
+                <h2>Добро пожаловать в мир программирования!</h2>
+                <p>Здесь ты найдешь уроки, примеры кода и ресурсы для начинающих и опытных разработчиков. Начни свой путь с нашего сайта и стань мастером в программировании!</p>
+            </div>
+        </section>
+
+        <section class="tutorials">
+            <div class="container">
+                <h2>Популярные уроки</h2>
+                <div class="tutorial-list">
+                    <article class="tutorial">
+                        <h3>Основы HTML</h3>
+                        <p>Научись строить структуру веб-страниц с помощью HTML.</p>
+                        <a href="#">Читать урок</a>
+                    </article>
+                    <article class="tutorial">
+                        <h3>Введение в CSS</h3>
+                        <p>Изучи, как делать страницы красивыми и адаптивными с помощью CSS.</p>
+                        <a href="#">Читать урок</a>
+                    </article>
+                    <article class="tutorial">
+                        <h3>Основы JavaScript</h3>
+                        <p>Познакомься с основами программирования на языке JavaScript.</p>
+                        <a href="#">Читать урок</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Начни изучать программирование прямо сейчас!</h2>
+                <a href="#" class="button">Записаться на курс</a>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 Мой сайт</p>
+        <div class="container">
+            <p>&copy; 2025 Программирование для всех. Все права защищены.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
